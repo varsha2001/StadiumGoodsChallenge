@@ -100,13 +100,9 @@ public class stadiumGoodsProductSort {
 	            System.out.println("Sort By feature 'Low to High' is defective");
 	        }
 	    }
-	    
-	    private WebElement findElement(By xpath) {
-			// TODO Auto-generated method stub
-			return null;
-		}
+	   
 
-		@After
+	    @After
 	    public void afterTest() {
 	        driver.quit();
 	    }
